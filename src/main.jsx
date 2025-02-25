@@ -9,7 +9,7 @@ import  { UserTokenContext } from "./context/UserToken";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "react-hot-toast";
-import { numItem } from "./Context/NumberCartContext";
+import { numItem } from "./Context/NumberCartContext.jsx";
 import CounterContextProvider from "./context/Countercontext";
 
 const queryClient = new QueryClient();
